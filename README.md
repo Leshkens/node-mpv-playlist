@@ -1,15 +1,17 @@
-## Требования:
+# WIP
+
+## Requirements:
 - **Windows 10**
-- [**mpv**](https://mpv.io/) player[]
+- [**mpv**](https://mpv.io/) player
 - **Nodejs** >= 14
 
-## Установка
+## Install
 `npm i -g node-mpv-playlist`
 
-## Использование
-Выполните `mpv-playlist` в директории в нужными файлами
+## Usage
+Execute `mpv-playlist` in the directory with the desired video (.avi, .mkv, .mp4) files
 
-## Добавление ссылки в контекстное меню Windows
-Вам нужно сгенирировать .reg файл реестра, для этого выполните:
+## Adding a link to the Windows context menu
+You need to generate the registry file, to do this run:
 `mpv-playlist generate-reg *dir* *title*`
-где _**dir**_ это место, куда будет сохранен .reg файл, а _**title**_ — заголовок контекстного меню
+where _**dir**_ is the location where the .reg file will be saved and _**title**_ is the context menu title
