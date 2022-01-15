@@ -6,7 +6,7 @@
 - **Nodejs** >= 14
 
 ## Install
-`npm i -g node-mpv-playlist`
+`npm i -g leshkens/node-mpv-playlist`
 
 ## Usage
 Execute `mpv-playlist` in the directory with the desired video (.avi, .mkv, .mp4) files
