@@ -2,7 +2,7 @@
 
 import MkvPlaylist from '../lib/index.js';
 import RegFileGenerator from '../lib/reg_file_generator.js';
-import { cwd, argv, execPath, execArgv } from 'process';
+import { cwd, argv, execArgv } from 'process';
 
 let args = argv.splice(execArgv.length + 2);
 
