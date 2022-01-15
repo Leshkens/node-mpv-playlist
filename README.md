@@ -1,7 +1,15 @@
 ## Требования:
-- Windows 10
-- MPV player
-- Nodejs
+- **Windows 10**
+- [**mpv**](https://mpv.io/) player[]
+- **Nodejs** >= 14
 
 ## Установка
 `npm i -g node-mpv-playlist`
+
+## Использование
+Выполните `mpv-playlist` в директории в нужными файлами
+
+## Добавление ссылки в контекстное меню Windows
+Вам нужно сгенирировать .reg файл реестра, для этого выполните:
+`mpv-playlist generate-reg *dir* *title*`
+где _**dir**_ это место, куда будет сохранен .reg файл, а _**title**_ — заголовок контекстного меню
