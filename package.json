@@ -15,7 +15,6 @@
   "scripts": {},
   "type": "module",
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.5",
     "eslint": "^8.6.0",
     "process": "^0.11.10"
   }
