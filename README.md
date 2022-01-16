@@ -13,5 +13,5 @@ Execute `mpv-playlist` in the directory with the desired video (.avi, .mkv, .mp4
 
 ## Adding link to the Windows context menu (shift+right click on directory space)
 You need to generate the registry file, to do this run:
-`mpv-playlist generate-reg *dir* *title*`
+`mpv-playlist create-reg-file *dir* *title*`
 where _**dir**_ is the location where the .reg file will be saved and _**title**_ is the context menu title
